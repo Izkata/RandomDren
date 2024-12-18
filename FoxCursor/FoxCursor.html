@@ -1,0 +1,37 @@
+<HTML>
+<HEAD>
+<STYLE>
+
+.Box {
+   width: 100%;
+   height: 50px;
+   background: #EEEEEE;
+   border: 1px solid black;
+   color: #AAAAAA;
+}
+.Default { cursor: default; }
+.Pointer { cursor: pointer; }
+.Loading { cursor: progress; }
+
+</STYLE>
+</HEAD>
+<BODY>
+<TABLE>
+   <TR>
+      <TD>The default cursor is just a fox tail.</TD>
+      <TD><DIV CLASS='Box Default' /></TD>
+   </TR>
+   <TR>
+      <TD>Over a link it wiggles in anticipation (cursor: pointer)<BR />The blue dot is for useability, so I can see what it is without having to watch for the movement.</TD>
+      <TD><DIV CLASS='Box Pointer' /></TD>
+   </TR>
+   <TR>
+      <TD>The loading spinner is instead an excited wagging fox tail.</TD>
+      <TD><DIV CLASS='Box Loading' /></TD>
+   </TR>
+   <TR>
+      <TD>Over text the fox starts yapping at you.<BR />Also, the focus point is between the tips of his ears, so the text isn't obscured.</TD>
+      <TD><DIV CLASS='Box'>iiiiiiiiiiiiiiiiiii<BR />iiiiiiiiiiiiiiiiiii</DIV></TD>
+   </TR>
+</TABLE>
+</HTML>
